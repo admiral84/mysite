@@ -1,0 +1,13 @@
+.mail{
+    height: calc(100vw - 70px);
+    width: 100px;
+    position: fixed;
+    top: 70px;
+    right: 0;
+   
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    
+}

@@ -1,0 +1,32 @@
+#logo{
+   #n{
+      
+
+    
+    animation: nas ease 3s;
+    transform-origin: center;
+    
+
+    
+   }
+   @keyframes nas {
+      from{
+         transform: rotateY(0deg);
+      }
+      to{
+         transform: rotateY(360deg);
+      }
+      
+   }
+   #shape{
+      stroke-dasharray: 190;
+      stroke-dashoffset: 190;
+      animation:offset linear 3s forwards
+   }
+   @keyframes offset {
+      100%{
+         stroke-dashoffset: 0;
+      }
+      
+   }
+}
